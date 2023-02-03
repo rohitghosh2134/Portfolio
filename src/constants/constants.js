@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    image: '/images/1.png',
-    tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Chess AI',
+        description: "Chess Engine Made Using Pygame. The AI was based on 2 algorithms :- MinMax and NegaMax Alpha Beta Pruning",
+    image: '/images/Chess.png',
+    tags: ['Python','PyGame'],
+    source: 'https://github.com/rohitghosh2134/pythonGame',
+    visit: 'https://github.com/rohitghosh2134/pythonGame',
     id: 0,
   },
   {
@@ -16,7 +16,16 @@ export const projects = [
     source: 'https://github.com/rohitghosh2134/Quiz-Website',
     visit: 'https://github.com/rohitghosh2134/Quiz-Website',
     id: 1,
-  }
+    },
+    {
+        title: 'AI plays Flappy Bird',
+        description: 'Usng the NEAT module in Python, AI learns to play Flappy Bird',
+        image: '/images/FlappyBird.png',
+        tags: ['Python', 'PyGame', 'NEAT-Python'],
+        source: 'https://github.com/rohitghosh2134/FlappyBird',
+        visit: 'https://github.com/rohitghosh2134/FlappyBird',
+        id: 2,
+        }
 ];
 
 export const TimeLineData = [
