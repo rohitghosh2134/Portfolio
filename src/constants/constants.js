@@ -1,9 +1,9 @@
 export const projects = [
   {
     title: 'Chess AI',
-        description: "Chess Engine Made Using Pygame. The AI was based on 2 algorithms :- MinMax and NegaMax Alpha Beta Pruning",
+    description: "Chess Engine Made Using Pygame. The AI was based on 2 algorithms :- MinMax and NegaMax Alpha Beta Pruning",
     image: '/images/Chess.png',
-    tags: ['Python','PyGame'],
+    tags: ['Python', 'PyGame'],
     source: 'https://github.com/rohitghosh2134/pythonGame',
     visit: 'https://github.com/rohitghosh2134/pythonGame',
     id: 0,
@@ -16,16 +16,25 @@ export const projects = [
     source: 'https://github.com/rohitghosh2134/Quiz-Website',
     visit: 'https://github.com/rohitghosh2134/Quiz-Website',
     id: 1,
-    },
-    {
-        title: 'AI plays Flappy Bird',
-        description: 'Usng the NEAT module in Python, AI learns to play Flappy Bird',
-        image: '/images/FlappyBird.png',
-        tags: ['Python', 'PyGame', 'NEAT-Python'],
-        source: 'https://github.com/rohitghosh2134/FlappyBird',
-        visit: 'https://github.com/rohitghosh2134/FlappyBird',
-        id: 2,
-        }
+  },
+  {
+    title: 'AI plays Flappy Bird',
+    description: 'Usng the NEAT module in Python, AI learns to play Flappy Bird',
+    image: '/images/FlappyBird.png',
+    tags: ['Python', 'PyGame', 'NEAT-Python'],
+    source: 'https://github.com/rohitghosh2134/FlappyBird',
+    visit: 'https://github.com/rohitghosh2134/FlappyBird',
+    id: 2,
+  },
+  {
+    title: 'Prompt Galore - Next.js 13 Prompt Sharing Website',
+    description: 'Prompt Galore is a web application built with Next.js 13 that allows users to share, discover, and discuss writing prompts. It provides a platform for creative individuals to find inspiration, engage with a community of writers, and spark their imaginations.',
+    image: './images/PromptGalore.png',
+    tags: ['Next.js,Prompt Sharing,Creative Writing,Web Development,NextAuth,Vercel Hosting'],
+    source: 'https://project-promptgalore.vercel.app/',
+    code: 'https://github.com/rohitghosh2134/sharePrompts',
+    id: 3,
+  }
 ];
 
 export const TimeLineData = [
